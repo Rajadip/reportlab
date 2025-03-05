@@ -174,7 +174,9 @@ c.drawString(2.6*inch,1.35*inch,"LinkedIn Profile: https://www.linkedin.com/in/n
 # side bar
 c.setFillColor(HexColor('#3e415e'))
 c.rect(0.1*inch,0.1*inch,2.2*inch,11.5*inch,fill=1, stroke=1)
-c.drawImage('NAMRATAPHOTO.jpeg', 0.5*inch, 9.2*inch, width=1.6*inch, height=2.25*inch)
+c.setFillColor(HexColor('#3e41ee'))
+c.rect(0.5*inch,9.2*inch,1.6*inch,2.25*inch,fill=1, stroke=1)
+#c.drawImage('NAMRATAPHOTO.jpeg', 0.5*inch, 9.2*inch, width=1.6*inch, height=2.25*inch)
 c.setFillColor(HexColor('#FFFFFF'))
 
 # Contact
